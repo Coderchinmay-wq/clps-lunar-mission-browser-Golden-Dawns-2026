@@ -1,0 +1,162 @@
+{
+  "metadata": {
+    "title": "CLPS lunar landing sites",
+    "generatedAt": "2026-11-14",
+    "coordinateConvention": "Latitude/longitude decimal degrees. Coordinates are populated only when an official source supplies them.",
+    "classificationRule": "confirmed_landing_site means a CLPS lander actually touched down there; proposed_target_site means a planned/target destination with no confirmed landing from that mission.",
+    "sourcePolicy": "NASA official sources only; unknown coordinates are TBD."
+  },
+  "confirmedLandingSites": [
+    {
+      "id": "malapert-a",
+      "name": "Malapert A region",
+      "classification": "confirmed_landing_site",
+      "latitude": -80.13,
+      "longitude": 1.44,
+      "coordinateSource": "NASA NSSDC lunar artifact/impact table",
+      "coordinatePrecision": "source-reported decimal degrees",
+      "landingMissionIds": [
+        "clps-to2-im-im1"
+      ],
+      "notes": "Odysseus (IM-1) landed in the Malapert A region; the listed coordinates are the lander location, not a generalized center of the whole region.",
+      "sourceUrls": [
+        "https://nssdc.gsfc.nasa.gov/planetary/lunar/lunar_artifact_impacts.html",
+        "https://www.nasa.gov/event/clps-landing-intuitive-machines-im-1/"
+      ]
+    },
+    {
+      "id": "mare-crisium-mons-latreille",
+      "name": "Mare Crisium, near Mons Latreille",
+      "classification": "confirmed_landing_site",
+      "latitude": 18.562,
+      "longitude": 61.81,
+      "coordinateSource": "NASA NSSDC lunar artifact/impact table",
+      "coordinatePrecision": "source-reported decimal degrees",
+      "landingMissionIds": [
+        "clps-to19d-blue-ghost-1"
+      ],
+      "notes": "Blue Ghost Mission 1 landed near Mons Latreille in Mare Crisium.",
+      "sourceUrls": [
+        "https://nssdc.gsfc.nasa.gov/planetary/lunar/lunar_artifact_impacts.html",
+        "https://www.nasa.gov/news-release/touchdown-carrying-nasa-science-fireflys-blue-ghost-lands-on-moon/"
+      ]
+    },
+    {
+      "id": "mons-mouton-im2",
+      "name": "Mons Mouton region",
+      "classification": "confirmed_landing_site",
+      "latitude": -84.7906,
+      "longitude": 29.1957,
+      "coordinateSource": "NASA PDS instrument-host record and NASA NSSDC",
+      "coordinatePrecision": "source-reported decimal degrees",
+      "landingMissionIds": [
+        "clps-prime1-im2-athena"
+      ],
+      "notes": "Athena (IM-2) landed in the Mons Mouton region; its near-horizontal final orientation limited some payload operations.",
+      "sourceUrls": [
+        "https://pds.nasa.gov/ds-view/pds/viewContext.jsp?identifier=urn%3Anasa%3Apds%3Acontext%3Ainstrument_host%3Aspacecraft.clps_to_prime1_athena&version=1.0",
+        "https://nssdc.gsfc.nasa.gov/planetary/lunar/lunar_artifact_impacts.html"
+      ]
+    }
+  ],
+  "proposedTargetSites": [
+    {
+      "id": "sinus-viscositatis",
+      "name": "Sinus Viscositatis",
+      "classification": "proposed_target_site",
+      "latitude": "TBD",
+      "longitude": "TBD",
+      "associatedMissionIds": [
+        "clps-to2-ab-peregrine-1"
+      ],
+      "notes": "Peregrine's intended destination; the spacecraft did not land, so this is not a confirmed landing site.",
+      "sourceUrls": [
+        "https://science.nasa.gov/lunar-science/clps-deliveries/to2-astrobotic/"
+      ]
+    },
+    {
+      "id": "reiner-gamma",
+      "name": "Reiner Gamma",
+      "classification": "proposed_target_site",
+      "latitude": "TBD",
+      "longitude": "TBD",
+      "associatedMissionIds": [
+        "clps-cp11-im3"
+      ],
+      "notes": "NASA-listed target for the IM-3 delivery; do not plot as a touchdown location until confirmed.",
+      "sourceUrls": [
+        "https://science.nasa.gov/lunar-science/clps-deliveries/"
+      ]
+    },
+    {
+      "id": "lunar-far-side-tbd",
+      "name": "Lunar far side (specific site TBD)",
+      "classification": "proposed_target_site",
+      "latitude": "TBD",
+      "longitude": "TBD",
+      "associatedMissionIds": [
+        "clps-cs34-blue-ghost-2"
+      ],
+      "notes": "NASA describes a far-side delivery; a specific surface coordinate is not provided in the cited summary.",
+      "sourceUrls": [
+        "https://science.nasa.gov/lunar-science/clps-deliveries/"
+      ]
+    },
+    {
+      "id": "schrodinger-basin",
+      "name": "Schrödinger Basin",
+      "classification": "proposed_target_site",
+      "latitude": "TBD",
+      "longitude": "TBD",
+      "associatedMissionIds": [
+        "clps-cp12-draper-series2"
+      ],
+      "notes": "NASA provider information identifies Schrödinger Basin as the target; exact touchdown coordinates are TBD.",
+      "sourceUrls": [
+        "https://www.nasa.gov/commercial-lunar-payload-services/clps-providers/"
+      ]
+    },
+    {
+      "id": "gruithuisen-domes",
+      "name": "Gruithuisen Domes",
+      "classification": "proposed_target_site",
+      "latitude": "TBD",
+      "longitude": "TBD",
+      "associatedMissionIds": [
+        "clps-cp21-blue-ghost-3"
+      ],
+      "notes": "NASA-listed target for Blue Ghost Mission 3; not a confirmed landing.",
+      "sourceUrls": [
+        "https://science.nasa.gov/lunar-science/clps-deliveries/"
+      ]
+    },
+    {
+      "id": "mons-mouton-cp22",
+      "name": "Mons Mouton",
+      "classification": "proposed_target_site",
+      "latitude": "TBD",
+      "longitude": "TBD",
+      "associatedMissionIds": [
+        "clps-cp22-im4"
+      ],
+      "notes": "NASA lists Mons Mouton as the target for CP-22/IM-4; this is separate from the earlier IM-2 touchdown record in the same broad region.",
+      "sourceUrls": [
+        "https://science.nasa.gov/lunar-science/clps-deliveries/"
+      ]
+    },
+    {
+      "id": "lunar-south-pole-tbd",
+      "name": "Lunar South Pole (specific site TBD)",
+      "classification": "proposed_target_site",
+      "latitude": "TBD",
+      "longitude": "TBD",
+      "associatedMissionIds": [
+        "clps-ct3-blue-origin-mk1"
+      ],
+      "notes": "NASA lists a South Pole delivery target; exact landing coordinates are TBD.",
+      "sourceUrls": [
+        "https://science.nasa.gov/lunar-science/clps-deliveries/"
+      ]
+    }
+  ]
+}

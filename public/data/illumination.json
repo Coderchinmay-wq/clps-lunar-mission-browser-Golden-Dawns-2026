@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "title": "Lunar site illumination and Earth visibility dataset",
+    "generatedAt": "2026-11-14",
+    "status": "schema_only_no_unverified_ephemeris_values",
+    "important": "This file intentionally contains no fabricated sunrise, sunset, illumination percentage, or Earth-visibility windows. These are time-dependent quantities and should be computed from a documented ephemeris/terrain model or loaded from a verified NASA dataset.",
+    "recommendedComputation": "Use a lunar ephemeris plus site coordinates, local horizon/topography, solar position, and Earth position. Label results as model estimates and record model/version/time basis."
+  },
+  "records": [],
+  "recordSchema": {
+    "siteId": "string",
+    "utcTimestamp": "ISO-8601 UTC timestamp",
+    "solarElevationDegrees": "number or TBD",
+    "illuminationFraction": "number from 0 to 1 or TBD",
+    "sunriseUtc": "ISO-8601 UTC timestamp or TBD",
+    "sunsetUtc": "ISO-8601 UTC timestamp or TBD",
+    "earthElevationDegrees": "number or TBD",
+    "earthVisible": "boolean or TBD",
+    "earthVisibilityReason": "string or TBD",
+    "calculationMethod": "string",
+    "ephemerisSource": "URL or TBD",
+    "terrainModel": "string or TBD",
+    "isEstimate": "boolean"
+  }
+}
