@@ -1,0 +1,315 @@
+{
+  "metadata": {
+    "title": "NASA Commercial Lunar Payload Services (CLPS) mission dataset",
+    "generatedAt": "2026-11-14",
+    "sourcePolicy": "NASA official sources only; unknown values are represented as the string TBD.",
+    "coordinateConvention": "Latitude and longitude in decimal degrees; east longitude positive; west longitude negative.",
+    "statusNote": "Mission status describes delivery/landing outcome, not the operational status of each individual payload.",
+    "schemaVersion": "1.0.0"
+  },
+  "missions": [
+    {
+      "id": "clps-to2-ab-peregrine-1",
+      "name": "Astrobotic Peregrine Mission One",
+      "taskOrder": "TO2-AB",
+      "vendor": "Astrobotic",
+      "lander": "Peregrine",
+      "launchDate": "2024-01-08",
+      "actualLandingDate": "TBD",
+      "plannedLandingDate": "2024-01 (planned; exact date TBD)",
+      "missionStatus": "Failed to land; spacecraft did not reach the lunar surface",
+      "landingOutcome": "no_landing",
+      "targetSiteId": "sinus-viscositatis",
+      "payloads": [
+        {
+          "name": "Laser Retroreflector Array (LRA)",
+          "purpose": "Provides a fiducial marker for precision laser ranging between lunar assets.",
+          "manifestStatus": "manifested"
+        },
+        {
+          "name": "Neutron Spectrometer System (NSS)",
+          "purpose": "Measures hydrogen-bearing materials and bulk lunar regolith composition.",
+          "manifestStatus": "manifested"
+        },
+        {
+          "name": "Linear Energy Transfer Spectrometer (LETS)",
+          "purpose": "Measures the lunar radiation environment.",
+          "manifestStatus": "manifested"
+        },
+        {
+          "name": "Near InfraRed Volatile Spectrometer System (NIRVSS)",
+          "purpose": "Measures surface/subsurface hydration and volatile-related composition.",
+          "manifestStatus": "manifested"
+        },
+        {
+          "name": "Peregrine Ion-Trap Mass Spectrometer (PITMS)",
+          "purpose": "Characterizes volatile species in the lunar exosphere.",
+          "manifestStatus": "manifested"
+        }
+      ],
+      "payloadCaveat": "NASA's updated manifest lists five payloads for the flight; other originally considered payloads were reallocated to future missions.",
+      "sourceUrls": [
+        "https://science.nasa.gov/lunar-science/clps-deliveries/",
+        "https://science.nasa.gov/lunar-science/clps-deliveries/to2-astrobotic/"
+      ]
+    },
+    {
+      "id": "clps-to2-im-im1",
+      "name": "Intuitive Machines IM-1 (Odysseus)",
+      "taskOrder": "TO2-IM",
+      "vendor": "Intuitive Machines",
+      "lander": "Odysseus",
+      "landerClass": "Nova-C",
+      "launchDate": "2024-02-15",
+      "actualLandingDate": "2024-02-22",
+      "plannedLandingDate": "2024-02-22",
+      "missionStatus": "Landed; lander came to rest in a tilted orientation",
+      "landingOutcome": "landed",
+      "actualLandingSiteId": "malapert-a",
+      "payloads": [
+        {
+          "name": "Lunar Node 1 Navigation Demonstrator (LN-1)",
+          "purpose": "Demonstrates lunar navigation and communications networking."
+        },
+        {
+          "name": "Stereo Cameras for Lunar Plume-Surface Studies (SCALPSS)",
+          "purpose": "Images lander engine plume interactions with the lunar surface."
+        },
+        {
+          "name": "Radio-wave Observations at the Lunar Surface of the photo Electron Sheath (ROLSES)",
+          "purpose": "Measures the near-surface electron sheath and low-frequency radio environment."
+        },
+        {
+          "name": "Navigation Doppler Lidar for Precise Velocity and Range Sensing (NDL)",
+          "purpose": "Measures lander velocity and altitude during descent."
+        },
+        {
+          "name": "Radio Frequency Mass Gauge (RFMG)",
+          "purpose": "Measures cryogenic propellant quantity in the lander's tanks."
+        },
+        {
+          "name": "Laser Retroreflector Array (LRA)",
+          "purpose": "Provides a passive fiducial for precision laser ranging."
+        }
+      ],
+      "sourceUrls": [
+        "https://science.nasa.gov/lunar-science/clps-deliveries/",
+        "https://science.nasa.gov/lunar-science/clps-deliveries/to2-im/",
+        "https://nssdc.gsfc.nasa.gov/planetary/lunar/lunar_artifact_impacts.html"
+      ]
+    },
+    {
+      "id": "clps-to19d-blue-ghost-1",
+      "name": "Firefly Blue Ghost Mission 1",
+      "taskOrder": "TO19D",
+      "vendor": "Firefly Aerospace",
+      "lander": "Blue Ghost",
+      "launchDate": "2025-01-15",
+      "actualLandingDate": "2025-03-02",
+      "plannedLandingDate": "2025-03-02",
+      "missionStatus": "Successfully landed; completed lunar surface mission",
+      "landingOutcome": "landed",
+      "actualLandingSiteId": "mare-crisium-mons-latreille",
+      "payloads": [
+        {
+          "name": "Next Generation Lunar Retroreflector (NGLR)",
+          "purpose": "Supports precision laser ranging between Earth and the Moon."
+        },
+        {
+          "name": "Radiation Tolerant Computer System (RadPC)",
+          "purpose": "Demonstrates computing techniques resilient to radiation-induced faults."
+        },
+        {
+          "name": "Regolith Adherence Characterization (RAC)",
+          "purpose": "Studies how lunar dust adheres to different materials."
+        },
+        {
+          "name": "Lunar Magnetotelluric Sounder (LMS)",
+          "purpose": "Studies lunar crustal and magnetic/electrical properties."
+        },
+        {
+          "name": "Lunar Environment Heliospheric X-ray Imager (LEXI)",
+          "purpose": "Images Earth's magnetosphere in X-rays."
+        },
+        {
+          "name": "Lunar Instrumentation for Subsurface Thermal Exploration with Rapidity (LISTER)",
+          "purpose": "Investigates lunar subsurface thermal properties and heat flow."
+        },
+        {
+          "name": "Lunar PlanetVac (LPV)",
+          "purpose": "Demonstrates regolith sampling and pneumatic sample acquisition."
+        },
+        {
+          "name": "Stereo Cameras for Lunar Plume-Surface Studies (SCALPSS 1.1)",
+          "purpose": "Images plume-surface interactions during landing."
+        },
+        {
+          "name": "Electrodynamic Dust Shield (EDS)",
+          "purpose": "Demonstrates active lunar dust removal using electric fields."
+        },
+        {
+          "name": "Lunar GNSS Receiver Experiment (LuGRE)",
+          "purpose": "Tests reception of GNSS signals at and near the lunar surface."
+        }
+      ],
+      "sourceUrls": [
+        "https://www.nasa.gov/news-release/touchdown-carrying-nasa-science-fireflys-blue-ghost-lands-on-moon/",
+        "https://science.nasa.gov/lunar-science/clps-deliveries/to19d-firefly/",
+        "https://nssdc.gsfc.nasa.gov/planetary/lunar/lunar_artifact_impacts.html"
+      ]
+    },
+    {
+      "id": "clps-prime1-im2-athena",
+      "name": "Intuitive Machines IM-2 (Athena / PRIME-1)",
+      "taskOrder": "PRIME-1",
+      "vendor": "Intuitive Machines",
+      "lander": "Athena",
+      "landerClass": "Nova-C",
+      "launchDate": "2025-02-27",
+      "actualLandingDate": "2025-03-06",
+      "plannedLandingDate": "TBD",
+      "missionStatus": "Landed; lander came to rest in a near-horizontal orientation; some surface objectives were not completed",
+      "landingOutcome": "landed",
+      "actualLandingSiteId": "mons-mouton-im2",
+      "payloads": [
+        {
+          "name": "TRIDENT (The Regolith Ice Drill for Exploring New Terrain)",
+          "purpose": "Demonstrates drilling into lunar regolith to investigate subsurface volatiles.",
+          "outcomeNote": "NASA PDS reports the drill could not complete its science objectives because the lander's orientation prevented the drill from reaching the surface."
+        },
+        {
+          "name": "MSolo (Mass Spectrometer observing lunar operations)",
+          "purpose": "Identifies and quantifies volatiles released during lander and drilling operations."
+        },
+        {
+          "name": "Laser Retroreflector Array (LRA)",
+          "purpose": "Acts as a fiducial marker for precision laser ranging."
+        }
+      ],
+      "sourceUrls": [
+        "https://pds.nasa.gov/ds-view/pds/viewContext.jsp?identifier=urn%3Anasa%3Apds%3Acontext%3Ainstrument_host%3Aspacecraft.clps_to_prime1_athena&version=1.0",
+        "https://science.nasa.gov/lunar-science/clps-deliveries/prime-1-im/",
+        "https://nssdc.gsfc.nasa.gov/planetary/lunar/lunar_artifact_impacts.html"
+      ]
+    },
+    {
+      "id": "clps-cp11-im3",
+      "name": "Intuitive Machines IM-3",
+      "taskOrder": "CP-11",
+      "vendor": "Intuitive Machines",
+      "lander": "Nova-C",
+      "launchDate": "TBD",
+      "actualLandingDate": "TBD",
+      "plannedLandingDate": "TBD",
+      "plannedLandingWindow": "NASA provider information has listed 2025–2026; verify latest schedule before display",
+      "missionStatus": "Planned; landing not confirmed",
+      "landingOutcome": "not_yet_landed",
+      "targetSiteId": "reiner-gamma",
+      "payloads": [],
+      "payloadCountReportedByNASA": 4,
+      "sourceUrls": [
+        "https://www.nasa.gov/commercial-lunar-payload-services/clps-providers/",
+        "https://science.nasa.gov/lunar-science/clps-deliveries/"
+      ]
+    },
+    {
+      "id": "clps-cs34-blue-ghost-2",
+      "name": "Firefly Blue Ghost Mission 2",
+      "taskOrder": "CS-3/CS-4",
+      "vendor": "Firefly Aerospace",
+      "lander": "Blue Ghost",
+      "launchDate": "TBD",
+      "actualLandingDate": "TBD",
+      "plannedLandingDate": "TBD",
+      "plannedLandingWindow": "NASA provider page lists 2026; exact date TBD",
+      "missionStatus": "Planned; lunar far-side delivery and lunar-orbit relay deployment",
+      "landingOutcome": "not_yet_landed",
+      "targetSiteId": "lunar-far-side-tbd",
+      "payloads": [],
+      "payloadCountReportedByNASA": 3,
+      "additionalMissionElements": [
+        "Lunar communications/data relay satellite; ESA collaboration"
+      ],
+      "sourceUrls": [
+        "https://www.nasa.gov/commercial-lunar-payload-services/clps-providers/",
+        "https://science.nasa.gov/lunar-science/clps-deliveries/"
+      ]
+    },
+    {
+      "id": "clps-cp12-draper-series2",
+      "name": "Draper SERIES-2",
+      "taskOrder": "CP-12",
+      "vendor": "Draper (Team Draper; ispace-U.S. lander)",
+      "lander": "APEX 1.0",
+      "launchDate": "TBD",
+      "actualLandingDate": "TBD",
+      "plannedLandingDate": "TBD",
+      "plannedLandingWindow": "2026 (NASA provider information); exact date TBD",
+      "missionStatus": "Planned; landing not confirmed",
+      "landingOutcome": "not_yet_landed",
+      "targetSiteId": "schrodinger-basin",
+      "payloads": [],
+      "payloadCountReportedByNASA": 6,
+      "sourceUrls": [
+        "https://www.nasa.gov/commercial-lunar-payload-services/clps-providers/",
+        "https://science.nasa.gov/lunar-science/clps-deliveries/"
+      ]
+    },
+    {
+      "id": "clps-cp21-blue-ghost-3",
+      "name": "Firefly Blue Ghost Mission 3",
+      "taskOrder": "CP-21",
+      "vendor": "Firefly Aerospace",
+      "lander": "Blue Ghost",
+      "launchDate": "TBD",
+      "actualLandingDate": "TBD",
+      "plannedLandingDate": "TBD",
+      "missionStatus": "Planned; landing not confirmed",
+      "landingOutcome": "not_yet_landed",
+      "targetSiteId": "gruithuisen-domes",
+      "payloads": [],
+      "payloadCountReportedByNASA": 6,
+      "sourceUrls": [
+        "https://science.nasa.gov/lunar-science/clps-deliveries/"
+      ]
+    },
+    {
+      "id": "clps-cp22-im4",
+      "name": "Intuitive Machines IM-4",
+      "taskOrder": "CP-22",
+      "vendor": "Intuitive Machines",
+      "lander": "Nova-C",
+      "launchDate": "TBD",
+      "actualLandingDate": "TBD",
+      "plannedLandingDate": "TBD",
+      "plannedLandingWindow": "NASA provider page lists 2027; exact date TBD",
+      "missionStatus": "Planned; landing not confirmed",
+      "landingOutcome": "not_yet_landed",
+      "targetSiteId": "mons-mouton-cp22",
+      "payloads": [],
+      "payloadCountReportedByNASA": 6,
+      "sourceUrls": [
+        "https://www.nasa.gov/commercial-lunar-payload-services/clps-providers/",
+        "https://science.nasa.gov/lunar-science/clps-deliveries/"
+      ]
+    },
+    {
+      "id": "clps-ct3-blue-origin-mk1",
+      "name": "Blue Origin Blue Moon Mark 1 (MK1)",
+      "taskOrder": "CT-3",
+      "vendor": "Blue Origin",
+      "lander": "Blue Moon Mark 1",
+      "launchDate": "TBD",
+      "actualLandingDate": "TBD",
+      "plannedLandingDate": "TBD",
+      "missionStatus": "Planned; landing not confirmed",
+      "landingOutcome": "not_yet_landed",
+      "targetSiteId": "lunar-south-pole-tbd",
+      "payloads": [],
+      "payloadCountReportedByNASA": 2,
+      "sourceUrls": [
+        "https://science.nasa.gov/lunar-science/clps-deliveries/"
+      ]
+    }
+  ]
+}
