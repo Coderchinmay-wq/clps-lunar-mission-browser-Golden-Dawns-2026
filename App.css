@@ -1,0 +1,43 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #030712;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  text-align: center;
+}
+
+header {
+  padding: 25px 15px;
+  background: #0b1729;
+  border-bottom: 1px solid #164e63;
+}
+
+header h1 {
+  color: #38d9ff;
+  margin: 0 0 10px;
+}
+
+header p {
+  color: #b8c7d9;
+}
+
+main {
+  padding: 20px;
+}
+
+main h2 {
+  color: #e0f2fe;
+}
+
+.instruction {
+  color: #94a3b8;
+}
