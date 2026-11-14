@@ -8,7 +8,6 @@
 - NASA CLPS Deliveries:
   https://science.nasa.gov/lunar-science/clps-deliveries/
 
-## Data verification
+- Table of Anthropogenic Impacts and Spacecraft on the Moon:
+  https://nssdc.gsfc.nasa.gov/planetary/lunar/lunar_artifact_impacts.html?utm_
 
-All mission information must be checked against official sources.
-Unknown coordinates and dates must not be invented.
